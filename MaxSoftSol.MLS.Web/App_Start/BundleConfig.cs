@@ -24,8 +24,15 @@ namespace MaxSoftSol.MLS.Web
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      
+                      "~/PlugIns/font-awesome/css/font-awesome.min.css",
+                      "~/PlugIns/slick/slick.css",
+                      "~/PlugIns/slick/slick.css",
+                      "~/PlugIns/slick-nav/jquery.slicknav.min",
+                      "~/PlugIns//wow/animate.css",
+                      "~/css/bootstrap.min.css",
+                      "~/css/theme.css"
+                      ));
         }
     }
 }

@@ -9,6 +9,196 @@
 
 </head>
 <body>
+<div id="page-loader" style="display: none;">
+    <div class="loaders">
+        @*<img src="assets/images/loader/4.gif" alt="First Loader" style="display: inline;"><img src="assets/images/loader/3.gif" alt="First Loader" style="display: none;">*@
+        <img src="~/assets/images/loader/4.gif" alt="First Loader" style="display: inline;"/> <img src="~/assets/images/loader/3.gif" alt="First Loader" style="display: none;" />
+    </div>
+</div>
+    <header id="site-header">
+        <div id="site-header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="clearfix">
+                            <button class="btn btn-warning btn-lg header-btn visible-sm pull-right">List your Property for Free</button>
+                            <p class="timing-in-header">Open Hours: Monday to Saturday - 8am to 6pm</p>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="clearfix">
+                            <button class="btn btn-warning btn-lg header-btn hidden-sm">List your Property for Free</button>
+                            <div class="language-in-header">
+                                <i class="fa fa-globe"></i>
+                                <label for="language-dropdown"> Language:</label>
+                                <select name="currency" id="language-dropdown">
+                                    <option value="ENG">ENG</option>
+                                    <option value="AR">AR</option>
+                                    <option value="UR">UR</option>
+                                    <option value="NEO">NEO</option>
+                                    <option value="AKA">AKA</option>
+                                </select>
+                            </div>
+                            <div class="currency-in-header">
+                                <i class="fa fa-flag"></i>
+                                <label for="currency-dropdown"> Currency: </label>
+                                <select name="currency" id="currency-dropdown">
+                                    <option value="USD">USD</option>
+                                    <option value="EUR">EUR</option>
+                                    <option value="AOA">AOA</option>
+                                    <option value="XCD">XCD</option>
+                                    <option value="PKR">PKR</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="slicknav_menu">
+                    <a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                        <li><a href="index.html" role="menuitem" tabindex="-1">Home</a></li>
+                        <li class="slicknav_collapsed slicknav_parent">
+                            <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;">
+                                <a href="property-listing.html" tabindex="-1">Listing</a>
+                                <span class="slicknav_arrow">►</span>
+                            </a><ul role="menu" class="slicknav_hidden" aria-hidden="true" style="display: none;">
+                                <li><a href="property-listing.html" role="menuitem" tabindex="-1">Full Width</a></li>
+                                <li><a href="property-listing-with-sidebar.html" role="menuitem" tabindex="-1">With Sidebar</a></li>
+                                <li><a href="property-map-view.html" role="menuitem" tabindex="-1">Map View</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="single-property.html" role="menuitem" tabindex="-1">Property</a></li>
+                        <li><a href="gallery.html" role="menuitem" tabindex="-1">Gallery</a></li>
+                        <li class="slicknav_collapsed slicknav_parent">
+                            <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;">
+                                <a href="" tabindex="-1">Page</a>
+                                <span class="slicknav_arrow">►</span>
+                            </a><ul role="menu" class="slicknav_hidden" aria-hidden="true" style="display: none;">
+                                <li><a href="#" role="menuitem" tabindex="-1">Sub Menu</a></li>
+                                <li class="slicknav_collapsed slicknav_parent">
+                                    <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;">
+                                        <a href="#" tabindex="-1">Nested Menu</a>
+                                        <span class="slicknav_arrow">►</span>
+                                    </a><ul role="menu" aria-hidden="true" class="slicknav_hidden" style="display: none;">
+                                        <li><a href="#" role="menuitem" tabindex="-1">Sub Menu</a></li>
+                                        <li><a href="#" role="menuitem" tabindex="-1">Sub Menu</a></li>
+                                        <li class="slicknav_collapsed slicknav_parent">
+                                            <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;">
+                                                <a href="#" tabindex="-1">Nested Menu</a>
+                                                <span class="slicknav_arrow">►</span>
+                                            </a><ul role="menu" aria-hidden="true" class="slicknav_hidden" style="display: none;">
+                                                <li><a href="#" role="menuitem" tabindex="-1">Sub Menu</a></li>
+                                                <li><a href="#" role="menuitem" tabindex="-1">Sub Menu</a></li>
+                                                <li><a href="#" role="menuitem" tabindex="-1">Sub Menu</a></li>
+                                                <li><a href="#" role="menuitem" tabindex="-1">Sub Menu</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" role="menuitem" tabindex="-1">Sub Menu</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" role="menuitem" tabindex="-1">Sub Menu</a></li>
+                                <li><a href="#" role="menuitem" tabindex="-1">Sub Menu</a></li>
+                            </ul>
+                        </li>
+                        <li class="slicknav_collapsed slicknav_parent">
+                            <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;">
+                                <a href="#" tabindex="-1">blog</a>
+                                <span class="slicknav_arrow">►</span>
+                            </a><ul role="menu" class="slicknav_hidden" aria-hidden="true" style="display: none;">
+                                <li><a href="blog.html" role="menuitem" tabindex="-1">With Sidebar</a></li>
+                                <li><a href="blog-grid.html" role="menuitem" tabindex="-1">Grid Style</a></li>
+                                <li><a href="single.html" role="menuitem" tabindex="-1">Single</a></li>
+                            </ul>
+                        </li>
+                        <li class="slicknav_collapsed slicknav_parent">
+                            <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;">
+                                <a href="contact.html" tabindex="-1">contact</a>
+                                <span class="slicknav_arrow">►</span>
+                            </a><ul role="menu" class="slicknav_hidden" aria-hidden="true" style="display: none;">
+                                <li><a href="contact.html" role="menuitem" tabindex="-1">Variation One</a></li>
+                                <li><a href="contact-var-two.html" role="menuitem" tabindex="-1">Variation Two</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <figure id="site-logo">
+                        <a href="index.html"><img src="assets/images/logo.png" alt="Logo"></a>
+                    </figure>
+                </div>
+                <div class="col-md-6 col-sm-8">
+                    <nav id="site-nav" class="nav navbar-default">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li>
+                                <a href="property-listing.html">Listing</a>
+                                <ul style="display: none;">
+                                    <li><a href="property-listing.html">Full Width</a></li>
+                                    <li><a href="property-listing-with-sidebar.html">With Sidebar</a></li>
+                                    <li><a href="property-map-view.html">Map View</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="single-property.html">Property</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li>
+                                <a href="">Page</a>
+                                <ul>
+                                    <li><a href="#">Sub Menu</a></li>
+                                    <li>
+                                        <a href="#">Nested Menu</a>
+                                        <ul>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                            <li>
+                                                <a href="#">Nested Menu</a>
+                                                <ul>
+                                                    <li><a href="#">Sub Menu</a></li>
+                                                    <li><a href="#">Sub Menu</a></li>
+                                                    <li><a href="#">Sub Menu</a></li>
+                                                    <li><a href="#">Sub Menu</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Sub Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Sub Menu</a></li>
+                                    <li><a href="#">Sub Menu</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">blog</a>
+                                <ul>
+                                    <li><a href="blog.html">With Sidebar</a></li>
+                                    <li><a href="blog-grid.html">Grid Style</a></li>
+                                    <li><a href="single.html">Single</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact.html">contact</a>
+                                <ul>
+                                    <li><a href="contact.html">Variation One</a></li>
+                                    <li><a href="contact-var-two.html">Variation Two</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-3 col-sm-4">
+                    <div class="contact-in-header clearfix">
+                        <i class="fa fa-mobile"></i>
+                        <span>
+                            Call Us Now
+                            <br>
+                            <strong>111 222 333 444</strong>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">

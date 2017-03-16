@@ -251,13 +251,13 @@
     <Content Include="assets\images\slider\4.jpg" />
     <Content Include="assets\images\slider\5.jpg" />
     <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="css\bootstrap.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\theme.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="css\Site.css" />
     <Content Include="PlugIns\font-awesome\css\font-awesome.min.css" />
     <Content Include="PlugIns\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="PlugIns\forms\jquery.form.min.js" />
@@ -267,7 +267,10 @@
     <Content Include="PlugIns\modernizr\modernizr.custom.js" />
     <Content Include="PlugIns\slick-nav\jquery.slicknav.min.js" />
     <Content Include="PlugIns\slick-nav\slicknav.css" />
+    <Content Include="PlugIns\slick\ajax-loader.gif" />
     <Content Include="PlugIns\slick\fonts\slick.svg" />
+    <Content Include="PlugIns\slick\slick.css" />
+    <Content Include="PlugIns\slick\slick.min.js" />
     <Content Include="PlugIns\tweetie\tweetie.js" />
     <Content Include="PlugIns\whats-nearby\example\index.html" />
     <Content Include="PlugIns\whats-nearby\example\js\es5-sham.min.js" />
