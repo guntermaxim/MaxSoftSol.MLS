@@ -252,61 +252,49 @@
     <Content Include="assets\images\slider\5.jpg" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\bootstrap.css" />
-    <Content Include="css\theme.css" />
+    <Content Include="assets\css\bootstrap.css" />
+    <Content Include="assets\css\theme.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="css\Site.css" />
-    <Content Include="PlugIns\font-awesome\css\font-awesome.min.css" />
-    <Content Include="PlugIns\font-awesome\fonts\fontawesome-webfont.svg" />
-    <Content Include="PlugIns\forms\jquery.form.min.js" />
-    <Content Include="PlugIns\forms\jquery.validate.min.js" />
-    <Content Include="PlugIns\jquery-ui\jquery-ui.min.js" />
-    <Content Include="PlugIns\mixitup\mixitup.min.js" />
-    <Content Include="PlugIns\modernizr\modernizr.custom.js" />
-    <Content Include="PlugIns\slick-nav\jquery.slicknav.min.js" />
-    <Content Include="PlugIns\slick-nav\slicknav.css" />
-    <Content Include="PlugIns\slick\ajax-loader.gif" />
-    <Content Include="PlugIns\slick\fonts\slick.svg" />
-    <Content Include="PlugIns\slick\slick.css" />
-    <Content Include="PlugIns\slick\slick.min.js" />
-    <Content Include="PlugIns\tweetie\tweetie.js" />
-    <Content Include="PlugIns\whats-nearby\example\index.html" />
-    <Content Include="PlugIns\whats-nearby\example\js\es5-sham.min.js" />
-    <Content Include="PlugIns\whats-nearby\example\js\es5-shim.min.js" />
-    <Content Include="PlugIns\whats-nearby\example\js\WhatsNearby.js" />
-    <Content Include="PlugIns\whats-nearby\source\WhatsNearby.js" />
-    <Content Include="PlugIns\wow\animate.css" />
-    <Content Include="PlugIns\wow\wow.min.js" />
-    <Content Include="PlugIns\zoom\zoom.js" />
-    <Content Include="Scripts\ai.0.15.0-build58334.js" />
-    <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="css\PlugIns\font-awesome\css\font-awesome.min.css" />
+    <Content Include="css\PlugIns\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="css\PlugIns\forms\jquery.form.min.js" />
+    <Content Include="css\PlugIns\forms\jquery.validate.min.js" />
+    <Content Include="css\PlugIns\jquery-ui\jquery-ui.min.js" />
+    <Content Include="css\PlugIns\mixitup\mixitup.min.js" />
+    <Content Include="css\PlugIns\modernizr\modernizr.custom.js" />
+    <Content Include="css\PlugIns\slick-nav\jquery.slicknav.min.js" />
+    <Content Include="css\PlugIns\slick-nav\slicknav.css" />
+    <Content Include="css\PlugIns\slick\ajax-loader.gif" />
+    <Content Include="css\PlugIns\slick\fonts\slick.svg" />
+    <Content Include="css\PlugIns\slick\slick.css" />
+    <Content Include="css\PlugIns\slick\slick.min.js" />
+    <Content Include="css\PlugIns\tweetie\tweetie.js" />
+    <Content Include="css\PlugIns\whats-nearby\example\index.html" />
+    <Content Include="css\PlugIns\whats-nearby\example\js\es5-sham.min.js" />
+    <Content Include="css\PlugIns\whats-nearby\example\js\es5-shim.min.js" />
+    <Content Include="css\PlugIns\whats-nearby\example\js\WhatsNearby.js" />
+    <Content Include="css\PlugIns\whats-nearby\source\WhatsNearby.js" />
+    <Content Include="css\PlugIns\wow\animate.css" />
+    <Content Include="css\PlugIns\wow\wow.min.js" />
+    <Content Include="css\PlugIns\zoom\zoom.js" />
+    <Content Include="js\jquery.migrate.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\theme.js" />
+    <Content Include="js\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="PlugIns\font-awesome\fonts\fontawesome-webfont.eot" />
-    <Content Include="PlugIns\font-awesome\fonts\fontawesome-webfont.ttf" />
-    <Content Include="PlugIns\font-awesome\fonts\fontawesome-webfont.woff" />
-    <Content Include="PlugIns\font-awesome\fonts\fontawesome-webfont.woff2" />
-    <Content Include="PlugIns\font-awesome\fonts\FontAwesome.otf" />
-    <Content Include="PlugIns\slick\fonts\slick.eot" />
-    <Content Include="PlugIns\slick\fonts\slick.ttf" />
-    <Content Include="PlugIns\slick\fonts\slick.woff" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\_references.js" />
+    <Content Include="css\PlugIns\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="css\PlugIns\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="css\PlugIns\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="css\PlugIns\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="css\PlugIns\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="css\PlugIns\slick\fonts\slick.eot" />
+    <Content Include="css\PlugIns\slick\fonts\slick.ttf" />
+    <Content Include="css\PlugIns\slick\fonts\slick.woff" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -345,7 +333,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="assets\images\agents\" />
-    <Folder Include="PlugIns\tweetie\api\twitteroauth\" />
+    <Folder Include="css\PlugIns\tweetie\api\twitteroauth\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -353,7 +341,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
